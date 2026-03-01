@@ -1,5 +1,48 @@
-# Vue 3 + Vite
+# arco
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Premium Architecture & Interior Design Studio website. Built with a focus on minimalism, typography, and smooth animations.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## [Live Preview](https://yuribendzo.github.io/arco/)
+
+---
+
+## 🚀 Tech Stack
+
+- **Framework:** [Vue 3](https://vuejs.org/) (Composition API)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Animations:** [GSAP](https://greensock.com/gsap/) (ScrollTrigger)
+- **Styling:** SCSS (BEM Methodology)
+- **Routing:** Vue Router
+
+## ✨ Key Features
+
+- **Minimalist Design:** Focus on white space and large typography.
+- **Fluid Animations:** Smooth entry and scroll-triggered animations using GSAP.
+- **Responsive Layout:** Pixel-perfect design across all devices.
+- **Masonry Grid:** Dynamic project showcase with hover effects.
+
+## 🛠️ Getting Started
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+### Build
+
+```bash
+npm run build
+```
+
+### Preview Build
+
+```bash
+npm run preview
+```
