@@ -34,19 +34,11 @@
   background: $color-accent;
   color: $color-surface;
 }
+html {
+  scrollbar-width: none; // Firefox
+  -ms-overflow-style: none; // IE/Edge
+}
+
 ::-webkit-scrollbar {
-  width: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: $color-bg;
-}
-
-::-webkit-scrollbar-thumb {
-  background: $color-border;
-  border-radius: 3px;
-
-  &:hover {
-    background: $color-text-muted;
-  }
+  display: none; // Chrome/Safari/Opera
 }
