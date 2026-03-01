@@ -10,7 +10,7 @@
         preload="auto"
         poster=""
       >
-        <source src="/videos/hero-bg.mp4" type="video/mp4" />
+        <source src="/videos/hero-bg.webm" type="video/webm" />
       </video>
       <div class="hero__overlay"></div>
     </div>
